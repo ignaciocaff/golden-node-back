@@ -1,0 +1,24 @@
+Tenes que crear en Mysql en las tablas
+
+reglas_torneo
+modalidades
+tipos_torneo
+categorias
+
+Al menos 1 fila en cada una, son incrementales asique solo poniendo la descripcion basta.
+
+Y despues tenes que crear al menos un torneo en la tabla torneos.
+
+Te bajas el repo y seguis estos pasos:
+
+1- Abris consola y escribis "npm install", esperas que termine.
+2- En la misma consola escribis "node index.js" parado en la carpeta que tiene ese archivo osea la principal
+3- Vas al browser y escribis "localhost:3000/torneos"
+
+
+Si llenaste bien las tablas en mysql, te deberia devolver el torneo.
+
+
+Para todo esto, tenes que tener previamente instalado
+- Node
+- Npm
